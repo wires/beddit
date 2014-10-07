@@ -12,21 +12,21 @@ Run it
 
 Here some sample output:
 
-	-
-	  date:    2014-10-02
-	  score:   65
-	  latency: -8
-	  tags:    long_sleep_latency not_enough_sleep
-	-
-	  date:    2014-10-03
-	  score:   60
-	  latency: 5
-	  tags:    good_sleep_latency not_enough_sleep
-	-
-	  date:    2014-10-04
-	  score:   64
-	  latency: -8
-	  tags:    long_sleep_latency not_enough_sleep
+┌────────────┬─────────────┬───────────────┬───────────────────────────────────────────────┐
+│ Date       │ Sleep score │ Sleep latency │ Tags                                          │
+├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
+│ 2014-10-02 │ 65          │ -8            │ long sleep latency, not enough sleep          │
+├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
+│ 2014-10-03 │ 60          │ 5             │ good sleep latency, not enough sleep          │
+├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
+│ 2014-10-04 │ 64          │ -8            │ long sleep latency, not enough sleep          │
+├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
+│ 2014-10-05 │ 89          │ -3            │ long sleep latency, not enough sleep, snoring │
+├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
+│ 2014-10-06 │ 6           │ -8            │ long sleep latency, not enough sleep          │
+├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
+│ 2014-10-07 │ 100         │ 5             │ snoring, too much sleep                       │
+└────────────┴─────────────┴───────────────┴───────────────────────────────────────────────┘
 
 It get's all data from the API, I'm just limiting it to have a quick
 overview. 
