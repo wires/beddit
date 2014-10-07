@@ -1,3 +1,6 @@
+![Powered by Beddit](https://github.com/beddit/beddit-api/raw/master/images/powered_by_beddit.png)
+
+
 # Commandline tool to work with Beddit API
 
 Install deps
@@ -12,23 +15,8 @@ Run it
 
 Here some sample output:
 
-┌────────────┬─────────────┬───────────────┬───────────────────────────────────────────────┐
-│ Date       │ Sleep score │ Sleep latency │ Tags                                          │
-├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
-│ 2014-10-02 │ 65          │ -8            │ long sleep latency, not enough sleep          │
-├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
-│ 2014-10-03 │ 60          │ 5             │ good sleep latency, not enough sleep          │
-├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
-│ 2014-10-04 │ 64          │ -8            │ long sleep latency, not enough sleep          │
-├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
-│ 2014-10-05 │ 89          │ -3            │ long sleep latency, not enough sleep, snoring │
-├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
-│ 2014-10-06 │ 6           │ -8            │ long sleep latency, not enough sleep          │
-├────────────┼─────────────┼───────────────┼───────────────────────────────────────────────┤
-│ 2014-10-07 │ 100         │ 5             │ snoring, too much sleep                       │
-└────────────┴─────────────┴───────────────┴───────────────────────────────────────────────┘
+![command line table](https://github.com/0x01/beddit/raw/master/beddit-cli-tool.jpg)
 
-It get's all data from the API, I'm just limiting it to have a quick
-overview. 
+It get's all data from the API, I'm just limiting it to have a quick overview.
 
 (yeah, I never get enough sleep, it's true)
