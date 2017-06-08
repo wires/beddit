@@ -1,3 +1,9 @@
+> WARNING BEDDIT IS AQUIRED BY APPLE
+
+I won't be maintaining this anymore, you can use it to get the data out.
+If you run this all the data is written to a JSON file in the current
+directory `sleepdata_....json`
+
 ![Powered by Beddit](https://github.com/beddit/beddit-api/raw/master/images/powered_by_beddit.png)
 
 

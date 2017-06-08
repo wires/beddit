@@ -9,6 +9,12 @@ var table = new Table({ head: ['Date', 'Sleep score', 'Sleep latency', 'Tags'] }
 // just getting started
 var beddit = new Beddit();
 
+var fs = require('fs');
+
+function mk_filename (string) {
+	return string.replace('@','_').replace('.','_')
+}
+
 beddit
     .login(argv.user, argv.pass)
     .then(function(auth) {
@@ -27,6 +33,8 @@ beddit
 		});
 
 		// render table
+		var filename = 'sleepdata-' + mk_filename(argv.user) + '.json'
+		fs.writeFileSync(filename, JSON.stringify(sleep_data));
 		console.log(table.toString());
 	    });
     })
